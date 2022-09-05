@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            cursor: pointer;
+            border: 1px solid black;
+        }
+        *{
+            margin: 1rem ;
+        }
+    </style>
+</head>
+<body>
+
+<h1>StarTrekApp</h1>
+
+<h2>Enter the name of an alien species below</h2>
+
+<p>On away missions ,its vital to know the basic facts and characteristics about the aliens you will encounter. Enter the species name of your new friend (or foe) to obtain information about them</p>
+
+<input type="text">
+<div>
+    <a class="sunflower" id="getButton">Click to Get Info</a>
+</div>
+
+
+    <div class="pics-right">
+        <img src="" alt="alien-image" class="border" id="alienImage">
+        <p class="caption" id="alienCaption">Photo</p>
+    </div>
+    <ul class="lcars-list">
+        <li><span> Species Name: </span> <span id="alienName"></span></li>
+        <li><span>HomeWorld: </span> <span id="alienWorld"></span></li>
+        <li><span>Distinguishing Features</span> <span id="alienFeatures" ></span></li>
+        <li><span>Interesting Fact(s)</span> <span id="alienFacts"></span></li>
+        <li><span>Notable Examples: </span> <span id="alienExamples"></span></li>
+
+    </ul>
+
+    <script src="main.js"></script>
+</body>
+</html>
